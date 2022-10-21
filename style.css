@@ -9,7 +9,7 @@ i,button {
 }
 
 .header {
-    /* background: red; */
+
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -336,6 +336,8 @@ h5{
     height: 500px;
     flex-direction: column;
     margin-top: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }.spaces h1{
     font-size: 70px;
     color: white;
@@ -406,6 +408,69 @@ h5{
     font-weight: bold;
     margin-top: 40px;
 }
+.excercise{
+    height: 80vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.excercise .heading{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -100px;
+}
+.excercise p{
+    color: white;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.pic-excercise{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.sub-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 35vw;
+    height: 150%;
+    border-radius: 10px;
+}
+.web-template{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e7e9eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.web-pics{
+    display: flex;
+    justify-content: center;
+    overflow: ;
+    border: 2px solid black;
+    height: 43vh;
+    width: 80vw;
+
+}
+.web-pics img{
+    height: 40vh;
+    width: 30vw;
+    border: 10px solid grey;
+}
+#fer{
+    z-index: 10;
+
+}
+
 .footer {
     background: blue;
 }
